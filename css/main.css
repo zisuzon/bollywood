@@ -83,6 +83,21 @@ font-family: 'Roboto', sans-serif;
    
 }
 
+.test2 {
+	background-color: white;
+    color: #333333;
+    
+font-family: 'Roboto', sans-serif;
+
+	line-height: normal;
+    display: fixed;
+    align-items: left;
+    
+    padding: 10rem 1rem;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+   
+}
+
 
 .test-font {
 	font-family: 'Roboto-light';
