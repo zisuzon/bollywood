@@ -13,7 +13,7 @@
    /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #fffff;
+  background-color: #ffffff;
   padding: 20px 10px;
 }
 
@@ -39,22 +39,11 @@
 .header a.secondary {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  color: #1875f0;
+   color: #1875f0;
   font-size: 25px;
   margin-top: 6px;
 }
 
-
-/* Style the active/current link*/
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-/* Float the link section to the right */
-.header-right {
-  float: right;
-}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
 @media screen and (max-width: 500px) {
@@ -67,16 +56,17 @@
     float: none;
   }
 }
-
+body {
+	background-color: #F5F5F5;
+}
 html {
-	  background-color: #F6F6F6;
-
     color: #222;
     font-size: 1em;
 	text-align: left;
 }
 
 .service-teaser-link2 {
+	background-color: white;
     color: #333333;
     
 font-family: 'Roboto', sans-serif;
@@ -97,6 +87,7 @@ font-family: 'Roboto', sans-serif;
 .test-font {
 	font-family: 'Roboto-light';
 	font-size: 13px;
+	background-color: white;
 	font-color: #3c3c3c;
 	padding-left: 28px;
 }
@@ -139,17 +130,12 @@ font-family: 'Roboto', sans-serif;
 	
 
 	
-	#articles {
-  width: 100%;
+	#article {
+ width: 100%;
   padding-top: 150px;
   padding-left: 150px;
 }
 
-	#articles2 {
-  width: 100%;
-  padding-top: 150px;
-  padding-left: 150px;
-}
 
 
 @font-face {
